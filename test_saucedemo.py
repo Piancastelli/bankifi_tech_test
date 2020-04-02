@@ -11,11 +11,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class TestLoginPage(unittest.TestCase):
+class TestSaucedemo(unittest.TestCase):
     """Test class for the login page"""
     @classmethod
     def setUpClass(cls):
-        cls.logger = logging.Logger("LoginPage")
+        cls.logger = logging.Logger("TestSaucedemo")
         cls.logger.setLevel(logging.INFO)
 
         cls.base_address = "https://www.saucedemo.com"
