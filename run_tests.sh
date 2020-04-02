@@ -17,5 +17,5 @@ echo "Installing required packages"
 pip install .
 
 echo "Running tests"
-nosetests -v test_saucedemo.py
+nosetests -v --with-xunit --xunit-file=test_results.xml test_saucedemo.py
 
