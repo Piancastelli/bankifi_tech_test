@@ -101,7 +101,7 @@ class TestLoginPage(unittest.TestCase):
 
         self.driver.find_element_by_class_name("btn_primary").click()  # Will always click the first Add to cart button
         assert self.driver.find_element_by_class_name("btn_secondary").text == u"REMOVE"  # Want to be sure it added the item
-        assert self.driver.find_element_by_class_name("fa-layers-counting").text == 1
+        assert self.driver.find_element_by_class_name("fa-layers-counter").text == u"1"
 
         self.driver.find_element_by_class_name("shopping_cart_link").click()
         self.url_assert("cart.html")
