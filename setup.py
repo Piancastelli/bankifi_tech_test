@@ -1,7 +1,9 @@
 from setuptools import setup, find_packages
 
-install_requires = ["nose == 1.3.7",
-					"selenium == 3.141.0"]
+install_requires = [
+	"nose == 1.3.7",
+	"selenium == 3.141.0"
+]
 
 setup(
    name="Bankifi Selenium Tests",
