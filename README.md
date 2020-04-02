@@ -1,0 +1,3 @@
+This is a set of Selenium tests written in Python that run against https://www.saucedemo.com. They cover end-to-end tests from logging in to checking out with some different baskets, and also some login scenarios.
+
+The tests in this repo only run in Firefox, and they also assume that you already have the required geckodriver installed. If this is not the case, steps on how to do this can be found (here)[https://selenium-python.readthedocs.io/installation.html#drivers] 
