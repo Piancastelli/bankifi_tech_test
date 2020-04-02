@@ -1,0 +1,5 @@
+# Don't want to commit the driver logs
+geckodriver.log
+
+# Ignore pyc
+*.pyc
