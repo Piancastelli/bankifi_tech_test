@@ -3,3 +3,6 @@ geckodriver.log
 
 # Ignore pyc
 *.pyc
+
+# Ignore test results
+*.xml
